@@ -1,0 +1,316 @@
+.container {
+    padding: 0 3%;
+    height: calc(100% - 74px);
+    background-color: #FFFFFF;
+    overflow-y: scroll;
+}
+
+.container p {
+    margin: unset;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.header {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px auto 60px;
+}
+
+.leftNav {
+    display: block;
+    width: 80%;
+}
+
+p.title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2A2A2A;
+    margin-bottom: 8px;
+}
+
+p.date {
+    font-family: 'Founders Grotesk';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #A6ABB2;
+}
+
+.rightNav {
+    display: flex;
+    flex: 1;
+}
+
+.notification {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    position: relative;
+}
+
+.hasNotification {
+    width: 15px;
+    height: 15px;
+
+    background: #FF0000;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;
+    top: -4px;
+    right: 4px;
+}
+
+.user {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 131, 119, 0.1);
+    border: 1px solid #FF8377;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user img {
+    width: 32px;
+    height: 32px;
+}
+
+
+
+.mobileContainer {
+    display: flex;
+    margin: 30px auto 50px;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+    border-radius: 20px;
+    padding: 40px 20px;
+}
+
+.leftMobileCard {
+    width: 55%;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.currSelectAndValue {
+    display: flex;
+    align-items: center;
+}
+
+.currSelectAndValue .currency {
+
+}
+
+.currSelectAndValue > div {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.leftMobileCard .cardBodySubValue {
+    font-size: 10px;
+    margin-left: unset;
+}
+
+.rightMobileCard {
+    width: 45%;
+    padding-left: 20px;
+}
+
+.leftMobileCard .cardTitle, .rightMobileCard .cardTitle {
+    font-size: 12px;
+}
+
+.leftMobileCard .cardBodyValue, .rightMobileCard .cardBodyValue {
+    font-size: 18px;
+    margin-left: unset;
+}
+
+.mainCardContainer {
+    display: none;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 685px;
+    height: 176px;
+    margin-bottom: 80px;
+    margin: auto;
+}
+
+.leftCard {
+    width: 365px;
+}
+
+.leftCardBody {
+    margin-left: 20px;
+}
+
+.rightCard {
+    flex: 1 1;
+    border-radius: 10px;
+    background: #F5F5F5;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+}
+
+.rightCardBody {
+    margin-right: 68px;
+}
+
+.cardHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px 18px 20px;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.leftCardBody .cardHead {
+    margin-bottom: 19px;
+}
+
+.rightCardBody .cardHead {
+    margin-bottom: 33px;
+}
+
+.cardTitle {
+    font-family: 'Founders Grotesk';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2A2A2A;
+}
+
+.leftCardBody .cardTitle {
+    color: #2C665D;
+}
+
+.currency {
+
+}
+
+.cardBody {
+
+}
+
+p.cardBodyValue {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    color: #2A2A2A;
+    margin-bottom: 8px;
+    margin-left: 20px;
+}
+
+p.cardBodySubValue {
+    font-family: 'Founders Grotesk';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1px;
+    color: #A6ABB2;
+    margin-left: 20px;
+
+}
+
+.table {
+    margin-bottom: 40px;
+}
+
+/* mobile custom select */
+
+.currSelectAndValue > div {
+    width: 40px !important;
+    height: 30px !important;
+
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+      -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    /* overflow: hidden; */
+    display: flex;
+    left: unset;
+}
+
+.currSelectAndValue > p {
+    margin-left: 10px !important;
+    margin-bottom: unset;
+}
+
+
+.currSelectAndValue > div > div {
+    height: 30px;
+}
+
+.currSelectAndValue > div > div > div:last-child {
+    left: 0;
+    right: unset;
+    width: 75px;
+}
+
+
+@media (min-width: 700px) {
+    .mainCardContainer {
+        display: flex;
+        margin-top: 60px;
+    }
+
+    .mobileContainer {
+        display: none;
+    }
+    
+}
+
+/* @media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        flex: 1 1;
+    }
+
+    .mainCardContainer {
+        display: flex;
+    }
+    
+} */
+
+
+@media (min-width: 769px) {
+    .container {
+        flex: 1 1;
+        height: 100%;
+        padding: 0 40px;
+    }
+
+    .mainCardContainer {
+        margin: 60px auto 40px;
+        /* margin-bottom: 40px; */
+    }
+}
+
+@media (min-width: 1025px) {
+    .mainCardContainer {
+        margin: 0 0 40px;
+    }
+
+    .header {
+        display: flex;
+    }
+}

@@ -1,0 +1,43 @@
+.container {
+    padding: 17px 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.container p {
+    margin: unset;
+    font-family: 'Founders Grotesk';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1px;
+    color: #A6ABB2;
+}
+
+.container:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.container:hover p, .container:hover .logo {
+    color: #A6ABB2;
+}
+
+.selected {
+    background-color: #F5F5F5;
+}
+
+.selected p, .selected .logo {
+    font-weight: 600;
+    color: #2A2A2A;
+}
+
+.container svg {
+    margin-right: 10px;
+}
+
+/* p.name {
+    color: #A6ABB2;
+} */

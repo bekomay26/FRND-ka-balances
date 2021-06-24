@@ -1,0 +1,22 @@
+.container {
+    height: calc(100% - 74px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    padding: 3%;
+    margin: auto;
+}
+
+.container p {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (min-width: 481px) {
+    .container p {
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
