@@ -93,16 +93,10 @@ const Balances = ({currentDate}) => {
                                     ]}
                                     onClick={setSelectedCurrency}
                                 />
-                                {/* <select name="currency" id="currency" className={styles.currency}>
-                                    <option value="usd">USD</option>
-                                    <option value="kes">KES</option>
-                                    <option value="ngn">NGN</option>
-                                    <option value="ghc">GHC</option>
-                                </select> */}
                             </div>
                             <div className={styles.cardBody}>
                                 <p className={styles.cardBodyValue}>{currencyMap[selectedCurrency]} 5,332.18</p>
-                                <p className={styles.cardBodySubValue}>1 USD = 381.97 NGN</p>
+                        <p className={styles.cardBodySubValue}>{`1 ${currUpper} = ${exRate} NGN`}</p>
                             </div>
                         </div>
                     </div>
